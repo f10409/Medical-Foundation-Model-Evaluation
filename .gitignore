@@ -1,0 +1,118 @@
+.gitignore — FM_evaluation_public
+# Tailored for Python projects, Jupyter notebooks, uv-created `.venv`, and model artifacts
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+wheels/
+*.whl
+
+# Virtual environments (uv creates `.venv`)
+.venv/
+venv/
+ENV/
+env/
+
+# uv local state (if present)
+.uv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Python tooling caches and test outputs
+.mypy_cache/
+.pytest_cache/
+pytestdebug.log
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Logs and temporary files
+*.log
+*.out
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project-specific data, outputs, and model weights
+weights/
+results/
+outs/
+inputs/
+other/
+
+# Common ML model checkpoints and binaries
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.npz
+
+# MedImageInsights artifacts (local copies / generated files)
+MedImageInsights/2024.09.27/
+MedImageInsights/MedImageInsight/
+MedImageInsights/medimageinsightmodel.py
+MedImageInsights/__pycache__/
+MedImageInsights/.ipynb_checkpoints/
+
+# Ark+ artifacts
+Ark+/.ipynb_checkpoints/
+Ark+/__pycache__/
+
+# Sensitive or local-only files
+.env
+.env.local
+credentials.json
+keys.py
+
+# End of .gitignore
+Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.ipynb_checkpoints/
+.python-version
+other/
+*temp*.py
+*.out
+#weights/
+#results/
+#inputs/
+#outs/
+#config*.py
+#MedImageInsights/
+
+
+MedImageInsights/2024.09.27/
+MedImageInsights/.ipynb_checkpoints/
+MedImageInsights/MedImageInsight/
+MedImageInsights/MedImageInsights/
+MedImageInsights/medimageinsightmodel.py
+MedImageInsights/__pycache__/
+
+Ark+/__pycache__/
+Ark+/.ipynb_checkpoints/
+
