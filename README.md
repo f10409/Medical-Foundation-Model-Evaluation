@@ -1,5 +1,5 @@
-## Overview: running the six-model evaluations
-Repository for evaluating medical foundation models. This repository contains the code and scripts to evaluate six different foundation models. Two subfolders contain model-specific evaluation pipelines:
+## Overview: running the model evaluations
+Repository for evaluating medical foundation models. This repository contains the code and scripts to evaluate eight different foundation models. Two subfolders contain model-specific evaluation pipelines:
 
 - `Ark+/` — evaluation scripts and assets for the Ark+ model evaluations.
 - `MedImageInsights/` — evaluation scripts and assets for the MedImageInsights model evaluations.
