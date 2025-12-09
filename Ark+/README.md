@@ -2,13 +2,6 @@
 
 This directory contains the evaluation scripts and assets for the Ark+ model.
 
-## Important pre-step (repository root)
-- Before running per-model evaluations, run `uv sync` from the repository root to ensure packages are available:
-
-```bash
-uv sync
-```
-
 ## Installation (uv-only)
 1. From the repository root, change into the Ark+ directory:
 
