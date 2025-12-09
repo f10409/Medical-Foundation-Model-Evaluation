@@ -2,13 +2,6 @@
 
 This directory contains evaluation scripts and assets for the MedImageInsights model (one of the six evaluated models).
 
-## Important pre-step (repository root)
-- Before running per-model evaluations, run `uv sync` from the repository root to ensure packages are available:
-
-```bash
-uv sync
-```
-
 ## Installation (uv-only)
 This project requires Python == 3.8.19 as specified in the `uv.lock` file.
 
