@@ -55,7 +55,7 @@ Thumbs.db
 weights/
 results/
 outs/
-inputs/
+#inputs/
 other/
 
 # Common ML model checkpoints and binaries
