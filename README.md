@@ -35,6 +35,22 @@ Notes:
 - Only run accompanying `.sh` wrappers when they are present to automate steps (they typically exist alongside `.py` files with the same numeric prefix).
 - Check a sub-project's `uv.lock` for the expected Python version (for example, `MedImageInsights` may require Python 3.8).
 
+## Data
+
+This repository expects local copies of the datasets used for evaluation. Below are brief instructions for preparing two commonly used datasets.
+
+- SIIM-ACR Pneumothorax
+	- Source: https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation
+	- Preparation steps:
+		1. Download the DICOM files from the Kaggle competition.
+		2. Convert DICOMs to PNGs (keep the same base filename) and save them into `{YOUR PATH}/train_png/`.		 
+		3. Convert the RLE masks provided by the competition to binary PNG masks (same base filename) and save them into `{YOUR PATH}/train_msk/`.
+        4. The `inputs` folder contains the files for 5-fold cross-validation. Each file (e.g., `input_train_ptx_cla_0.csv` for the first fold) includes the image paths and labels for that specific fold.
+        5. The same folder contains `ptx_volume_pct.csv`, which records the pneumothorax volumes.
+
+- EmoryCXR
+	- This dataset cannot be publicly distributed from this repository. To request access, please contact Dr. Judy Gichoya: judywawira@emory.edu
+
 ## Sub-project READMEs
 - `Ark+/README.md` — Ark+ evaluation instructions (uses `uv`).
 - `MedImageInsights/README.md` — MedImageInsights evaluation instructions (uses `uv`).
