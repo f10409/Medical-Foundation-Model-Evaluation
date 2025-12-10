@@ -49,7 +49,7 @@ This repository expects local copies of the datasets used for evaluation. Below 
         5. The same folder contains `ptx_volume_pct.csv`, which records the pneumothorax volumes.
 
 - EmoryCXR
-	- This dataset cannot be publicly distributed from this repository. To request access, please contact Dr. Judy Gichoya: judywawira@emory.edu
+	- The institutional chest X-ray dataset used for cardiomegaly analysis is not publicly available as it may contain protected health information. Limited information about these datasets may be shared on reasonable request to Dr. Judy Gichoya at judywawira@emory.edu, subject to approval and appropriate confidentiality agreements.
 
 ## Sub-project READMEs
 - `Ark+/README.md` — Ark+ evaluation instructions (uses `uv`).
