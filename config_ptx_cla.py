@@ -62,7 +62,7 @@ class config:
     # Environment Configuration
     # ========================
     GPU = 0  # Which GPU to use
-    WANDB_API_KEY = '1fd404a4aa7942f53225bb4b74f219f926325e2a'
+    WANDB_API_KEY = ''
     
     # ========================
     # Output Configuration

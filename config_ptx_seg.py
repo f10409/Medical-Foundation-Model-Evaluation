@@ -17,7 +17,7 @@ class config:
     # Hardware Configuration
     # ========================
     GPU = 1                              # GPU device number
-    WANDB_API_KEY = '1fd404a4aa7942f53225bb4b74f219f926325e2a'  # Weights & Biases API key
+    WANDB_API_KEY = ''  # Weights & Biases API key
     
     # ========================
     # Model Architecture
